@@ -10,7 +10,7 @@ This README describes the refactored generalized simulation and helper scripts, 
 | --- | --- |
 | `Correlation_PrevEstim_Efficiency_Generalized.R` | Configures and runs simulation scenarios, produces comparisons, and saves results. |
 | `functions_Correlation_PrevEstim_Efficiency_Generalized.R` | Computes excursion-set quantities, EFSA sample sizes, and surveillance metrics. |
-| `exemple_pr_Francois.R` | Illustrates fixed and perimeter-corrected prevalence using one Gaussian field; exports two PNG figures. |
+| `Plot_fields.R` | Illustrates fixed and perimeter-corrected prevalence using one Gaussian field; exports two PNG figures. |
 
 Keep both generalized scripts in the same directory. The main script locates its helper relative to the script location; the output directory defaults to the current working directory.
 
